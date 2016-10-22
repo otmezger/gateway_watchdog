@@ -1,11 +1,11 @@
-//Incluir en el programa de lectura para realizar conexión con MongoDB
-//guardar debe llamarse despues de leer cada variable
+//Include in the reading program to perform the connection with MongoDB
+//"Save" must be called after reading each variable
 
 
 var mongoose = require('mongoose');
 var db = mongoose.connect('mongodb://localhost/sensors');
 
-function guardar(dato, indice){
+function save(dato, indice){
 var dataPoint=new DataPoint ();
 dataPoint.value=dato;
 dataPoint.sensorID=indice;
