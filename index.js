@@ -4,6 +4,6 @@ var enviarEmail= require('./email');
 var perro = require('./watchdog');
 
 enviarEmail();
-perro();
+watchdog();
 
 //node ./index.js
