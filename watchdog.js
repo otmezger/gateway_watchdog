@@ -1,5 +1,5 @@
-//Este programa realiza la lectura de datos, no se incluye la función de guardado en Mongo DB
-//para poder ejecutar solo pruebas por correo
+//This program performs the data parsing. It doesn't store the data in MongoDB
+//in order to execute tests with the email
 
 
 var fs = require('fs'); //biblioteca para readFile
