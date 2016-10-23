@@ -52,5 +52,5 @@ Recommended: use ssh authentication with keys.
 Still not implemented.
 
 ## Create your SMTP using sendgrid.com
-Go to [Sendgrid](https://sendgrid.com/) and create a API key. When you create this key, go to settings and enable full access in Mail Send. 
-Save your API key (not your API ID) somewhere in your files because its given to you just once.
+Go to [Sendgrid](https://sendgrid.com/) and create an API key. When you create this key, go to settings and enable full access in Mail Send. 
+Save your API key (not your API ID) somewhere in your files because it's given to you just once.
