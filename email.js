@@ -17,7 +17,7 @@ function enviarEmail(){
   var Fecha=file.get('Fecha');
   var Hora=file.get('Hora');
   if (Temperature>50 && alarma_activa=0){ //Send an email in the case of alarm, just the first time
-  sender('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', {  
+  sender('SG.T7MMhXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-Rm34hVK89I1_iU8XfH0', {  //This is your API key, not your API ID. From sengrid.com
   from: 'sajibu3108@gmail.com',
   to: 'stevenjb.wolf@gmail.com',
   subject: 'test message',
