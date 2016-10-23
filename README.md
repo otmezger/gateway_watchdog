@@ -19,6 +19,8 @@ The code will also need the following npm packages installed globally on the gat
 1. forever
 1. forever-service
 1. gulp
+1. sendgrid-sender
+1. json-file
 ```
 sudo npm install forever forever-service gulp -g
 ```
